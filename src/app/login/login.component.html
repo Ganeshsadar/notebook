@@ -1,0 +1,49 @@
+<div class="bagroundAll">
+
+  <div class="Box">
+
+    <form [formGroup]="loginform" (ngSubmit)="login()">
+      <div style="display: flex;justify-content: center;font-size: larger;text-size-adjust: 20px;">
+        <p>login page</p>
+      </div>
+
+      <div style="display: flex;justify-content: center;">
+        <div class="input">
+          <label>Username : </label>
+
+          <input type="text" placeholder="Enter Username" name="uname" formControlName="user" required>
+        </div>
+      </div>
+      <span style="color: brown;" *ngIf="user && user.invalid && user.touched">this is not valid</span>
+      <!-- <div>
+        <small style="color: brown;" *ngif ="loginform.get(loginform.Username).errors[required]">require get some error</small>
+        
+      </div> -->
+      <br>
+  
+
+      <div style="display: flex;justify-content: center;">
+        <div class="allin">
+          <label>password : </label>
+          <input type="password" placeholder="Enter Password" name="psw" formControlName="password" required>
+        </div>
+      </div>
+      <span style="color: brown;" *ngIf="password && password.invalid">thise fealld not valid</span>
+      <!-- <div>
+        <small style="color: brown;" *ngif="loginform.get('loginform.Password').errors['noSpaceAlow']">require space get some error</small>
+      </div> -->
+      
+      <div style="display: flex;margin-left: 60%;">
+        
+          <a routerLink="forgot">forgot password</a>
+        
+      </div>                                  
+
+      <div class="button" style="display: flex;justify-content: center;">
+        <button type="submit" >Login</button>
+      </div>
+
+
+    </form>
+  </div>
+</div>

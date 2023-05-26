@@ -1,0 +1,86 @@
+.bagroundAll
+{
+   margin: 0;
+  margin-top: 0;
+  padding: 0;
+  padding-top: 200px;
+  padding-bottom: 200px; 
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+   height: 100%;
+  width: 100%; 
+  background-repeat: no-repeat;
+       background-image: url("../../assets/bac.jpg");  
+
+}
+.Box {
+   
+    background-color: rgb(240, 175, 12);
+    
+    
+   /* padding: 14px 20px; */
+    border-radius: 30px;  
+   width: 50%;
+    font-family: sans-serif;
+    text-align: center;
+background-position: 100%;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 100px;
+margin-bottom: 300px;
+box-shadow: 10px 10px 15px black;
+  }
+ button {
+     background-color: #206a79; 
+    color: rgb(8, 2, 2);
+      padding: 14px 20px;  
+     margin: 8px 0; 
+     border-radius: 30px; 
+     cursor: pointer;  
+     width: 20%; 
+     
+  } 
+   input[type=text], input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+   
+    font-weight: bold;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ec0707;
+    box-sizing:content-box;
+    box-shadow: 10px 10px 15px blue;
+  } 
+  .allin{
+    text-align: center;
+  }
+   .bag
+  {
+   padding-top: 40px;
+   padding-bottom: 40px;
+    background-size: cover;
+background-color: #ec0707;
+    background-position:center center;
+    background-attachment: fixed;
+    
+  background-repeat: no-repeat;
+       background-image: url("../../assets/bac.jpg");   
+  }  
+  .input
+  {
+    text-align: center;
+    
+  }
+  .input input
+  {
+    width: 50%;
+  }
+  small{
+    color: #ec0707;
+  }
+
+  
+  
